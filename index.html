@@ -9,7 +9,10 @@
 </head>
 <body>
     <header>
-        <img src="assets/imgs/ccxplogo.png" alt="logo CCXP" id="ccxpLogo">
+        <img src="assets/imgs/ccxplogo.png"
+        alt="logo CCXP" 
+        id="ccxpLogo"
+        >
     </header>
 
     <main>
@@ -49,22 +52,67 @@
                 </div>
                 <h1 id="frase">PARA A MAIOR CCXP DE TODOS OS TEMPOS</h1>
                 <video controls loop width="700px">
-                    <source src="./assets/video/Arlequina.mp4" type="video/mp4">
+                    <source src="./assets/video/Arlequina.mp4" 
+                    type="video/mp4"
+                    >
                 </video>
             </div>
             
         </section>
     </main>
 
-    <footer>
+    <section id="thirdSection">
+
         <h3 id="light">AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</h3>
-        <img src="./assets/imgs/img1.png" alt="quinta feira" id="img1">
-        <img src="./assets/imgs/img2.png" alt="sexta feira" id="img2">
-        <img src="./assets/imgs/img3.png" alt="esgotado" id="img3">
-        <img src="./assets/imgs/img4.png" alt="domingo" id="img4">
-        <input type="button" value="GARANTA O SEU" id="botao">
-    </footer>
+        <img src="./assets/imgs/img1.png"
+        onmouseover="highlightCard('#Quinta')"
+        onmouseout="highlightCard('#Quinta')" 
+        onclick="selectCard('#Quinta')"
+        alt="Quinta-feira"
+        id="Quinta"
+        >
+        <img src="./assets/imgs/img2.png"
+        onmouseover="highlightCard('#Sexta')"
+        onmouseout="highlightCard('#Sexta')"
+        onclick="selectCard('#Sexta')"
+        alt="Sexta-feira" 
+        id="Sexta"
+        >
+        <img src="./assets/imgs/img3.png"
+        onmouseover="highlightCard('#Sabado')"
+        onmouseout="highlightCard('#Sabado')"
+        onclick="selectCard('#Sabado')"
+        alt="Esgotado" 
+        id="Sabado"
+        >
+        <img src="./assets/imgs/img4.png"
+        onmouseover="highlightCard('#Domingo')"
+        onmouseout="highlightCard('#Domingo')"
+        onclick="selectCard('#Domingo')"
+        alt="Domingo"
+        id="Domingo"
+        >
+
+        <input type="button"
+        value="GARANTA O SEU"
+        onclick="showSelectedCards()"
+        id="botao">
+
+    </section>
+
+    <div id="formulario">
+        <form action="https://www.google.com">
+            <input type="email"
+            placeholder="Seu email"
+            required
+            />
+            <input type="submit"/>
+        </form>
+    </div>
+
+
     <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/main.js"></script>
 </body>
 
 </html>
