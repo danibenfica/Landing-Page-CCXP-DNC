@@ -1,8 +1,9 @@
 body {
-    width: 1728px;
-    height: 1117px;
-    top: 621px;
-
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
 
 header {
@@ -30,12 +31,16 @@ header {
 
     }
 
+section {
+    width: 100%;
+}
+
 #firstSection {
     display: flex;
     flex-direction: column;
     position: absolute;
-    width: 802px;
-    height: 694px;
+    width: 602px;
+    height: 584px;
     left: 0px;
     top: 118px;
     background: #514988;
@@ -43,15 +48,15 @@ header {
 
 #firstSection h1 {
     position: absolute;
-    width: 676px;
-    height: 149px;
+    width: 476px;
+    height: 89px;
     left: 60px;
-    top: -50px;
+    top: -30px;
     font-family: 'Verdana';
     font-style: normal;
     font-weight: 700;
-    font-size: 68px;
-    line-height: 85px;
+    font-size: 48px;
+    line-height: 65px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -60,15 +65,15 @@ header {
 
 #firstSection h4 {
     position: absolute;
-    width: 676px;
-    height: 149px;
-    left: 180px;
+    width: 476px;
+    height: 89px;
+    left: 150px;
     top: 50px;
     font-family: 'Verdana';
     font-style: normal;
     font-weight: 700;
-    font-size: 30px;
-    line-height: 85px;
+    font-size: 20px;
+    line-height: 65px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -79,13 +84,13 @@ header {
     position: absolute;
     width: 678px;
     height: 350px;
-    left: 64px;
-    top: 220px;
+    left: 34px;
+    top: 160px;
     font-family: 'Verdana';
     font-style: normal;
     font-weight: 400;
-    font-size: 29px;
-    line-height: 35px;
+    font-size: 23px;
+    line-height: 30px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -96,8 +101,8 @@ header {
     position: absolute;
     width: 741px;
     height: 36px;
-    left: 835px;
-    top: 60px;
+    left: 635px;
+    top: 80px;
     padding-top: 20px;
 
 }
@@ -105,7 +110,7 @@ header {
 .countdown {
     display: grid;
     grid-auto-flow: column;
-    justify-content: space-between;
+  
 
 }
 
@@ -115,8 +120,8 @@ header {
     font-family: 'Verdana';
     font-style: normal;
     font-weight: 700;
-    font-size: 70px;
-    line-height: 85px;
+    font-size: 60px;
+    line-height: 25px;
     align-items: center;
     text-align: center;
     color: #514988;
@@ -127,11 +132,11 @@ header {
     width: 900px;
     height: 36px;
     left: 5px;
-    top: 150px;
+    top: 130px;
     font-family: 'Verdana';
     font-style: normal;
     font-weight: 700;
-    font-size: 28px;
+    font-size: 25px;
     line-height: 90px;
     display: flex;
     align-items: center;
@@ -164,28 +169,32 @@ header {
     
 video {
     position: absolute;
-    width: 880px;
-    height: 510px;
+    width: 720px;
+    height: 410px;
     left: -20px;
     top: 200px;
     }
 
+#thirdSection {
+    width: 100%;
+}
 
 #thirdSection h3 {
     position: absolute;
-    width: 800px;
+    width: 1000px;
     height: 33px;
-    left: 89px;
-    top: 800px;
+    left: 90px;
+    top: 700px;
     font-family: 'Verdana';
     font-style: normal;
     font-weight: 700;
-    font-size: 27px;
-    line-height: 33px;
+    font-size: 22px;
+    line-height: 83px;
     display: flex;
     align-items: center;
     text-align: center;
     color: #F3C61F;
+    margin-bottom: 0;
 }
 
 #light {
@@ -206,10 +215,10 @@ video {
 
 #Quinta {
     position: absolute;
-    width: 204px;
-    height: 204px;
-    left: 81px;
-    top: 875px;
+    width: 184px;
+    height: 184px;
+    left: 71px;
+    top: 775px;
     transition: transform 0.2s ease-in-out;
 
 }
@@ -221,10 +230,10 @@ video {
 
 #Sexta {
     position: absolute;
-    width: 204px;
-    height: 204px;
-    left: 285px;
-    top: 875px;
+    width: 184px;
+    height: 184px;
+    left: 225px;
+    top: 775px;
 }
 
     #Sexta:hover {
@@ -234,10 +243,10 @@ video {
 
 #Sabado {
     position: absolute;
-    width: 204px;
-    height: 204px;
-    left: 489px;
-    top: 875px;
+    width: 184px;
+    height: 184px;
+    left: 389px;
+    top: 775px;
 }
 
     #Sabado:hover {
@@ -247,10 +256,10 @@ video {
 
 #Domingo {
     position: absolute;
-    width: 204px;
-    height: 204px;
-    left: 693px;
-    top: 875px;
+    width: 184px;
+    height: 184px;
+    left: 553px;
+    top: 775px;
     
 }
 
@@ -261,16 +270,16 @@ video {
 
 #botao {
     position: absolute;
-    width: 596px;
-    height: 148px;
-    left: 1004px;
-    top: 903px;
+    width: 496px;
+    height: 98px;
+    left: 804px;
+    top: 833px;
     background: #514988;
     border-radius: 20px;
     font-family: 'Verdana';
     font-style: normal;
     font-weight: 700;
-    font-size: 42px;
+    font-size: 22px;
     line-height: 51px;
     color: #FFFFFF;
 
@@ -286,8 +295,7 @@ video {
     width: 1800px;
     height: 118px;
     left: 0px;
-    top: 1200px;
-    margin: 0;
+    top: 1100px;
     padding: 0;
     background: #FFD900;
     }
@@ -297,11 +305,15 @@ video {
         border-radius: 10px;
         color: #FFFFFF;
         border: 0pt;
-        margin: 30px;
         width: 300px;
         height: 70px;
         font-size: 30px;
         cursor: pointer;
+        left: 0px;
+        margin-top: 30px;
+        align-items: center;
+ 
+
     }
 
 .card-highlight {
@@ -312,84 +324,236 @@ video {
     border: 5px solid green;
 }
 
-@media only screen and (max-width: 768px) {
-body {
-    margin: 0;
-    padding: 0;
-}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+    body{
+        width: 320px;
+        margin: 0;
+        padding: 0;
+    }
+
+    header{
+        width: 602px;
+    }
+
+    #firstSection {
+        height: 484px;
+    }
 
     #firstSection h1 {
-        left: 30px;
+        font-size: 25px;
+        left: 45px;
     }
 
     #firstSection h4 {
-        left: 120px;
+        font-size: 15px;
+        left: 55px;
+        top: 20px;
     }
 
     #firstSection p {
-        left: 30px;
-}
-
+        font-size: 12px;
+        top: 80px;
+        left: 20px;
+    }
+    
     #secondSection {
-        position: absolute;
+        width: 602px;
+        left: 10px;
+        top: 570px;
+    }
+    
+    .countdown {
         display: flex;
-        flex-direction: column;
-        width: 660px;
-        height: 36px;
-        left: 30px;
-        top: 750px;
-        padding-top: 20px;
-
+        flex-wrap: wrap;
+        width: 602px;
+    
+    }
+    
+    #day, #hour, #min, #sec,
+    #pDias, #pHora, #pMinuto, #pSegundo {
+        font-size: 30px;
+        line-height: 30px;
+        vertical-align:baseline;
+        margin-top: 20px;
+        left: 20px;
     }
 
-    #day, #hour, #min, #sec,
-     #pDias, #pHora, #pMinuto, #pSegundo {
-        font-size: 30px;
-        font-weight: 600;
+    #pDias, #pHora, #pMinuto, #pSegundo {
+        margin-right: 5px;
+    }
 
-        
-
-}
+    .countdown #frase {
+        width: 250px;
+        font-size: 20px;
+        top: 90px;
+        line-height: 30px;
+        left: 30px;
+   
+    }
 
     video {
-        width: 700px;
+        width: 320px;
+        top: 70px;
     }
-
+    
     #thirdSection h3 {
-        display: flex;
-        text-align: center;
-        width: 500px;
-        left: 80px;
-        top: 1470px;
+        top: 1060px;
+        left: 30px;
+        width: 250px;
+        line-height: 30px;
     }
 
     #Quinta {
-        left: 10px;
-        top: 1600px;
+        top: 1200px;
+        left: 0px;
     }
 
     #Sexta {
-        left: 190px;
-        top: 1600px;
+        top: 1200px;
+        left: 150px;
     }
 
     #Sabado {
-        left: 350px;
-        top: 1600px;
+        top: 1450px;
+        left: 0px;
     }
 
     #Domingo {
-        left: 520px;
-        top: 1600px;
+        top: 1450px;
+        left: 150px;
     }
 
     #botao {
-        left: 50px;
-        top: 1850px;
+    
+        width: 196px;
+        height: 68px;
+        left: 70px;
+        top: 1700px;
+        font-size: 16px;
     }
 
-    #formulario {
-        top: 2100px;
-    }
+    #formulario {  
+        width: 602px;
+        height: 100%;      
+        top: 1800px;
+        display: flex;
+        flex-direction: column;
+  }
 
+    #formulario input {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-left: 10px;
+        margin-top: 80px;
+        }
+
+     #submitInput {
+        padding-top: 20px;
+     }   
 }
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        width: 902px;
+    }
+
+    #ccxpLogo {
+        width: 250px;
+        height: 73px;
+    }
+
+    #firstSection {
+        width: 902px;
+        height: 620px;
+    }
+
+    #firstSection h1 {
+        left: 200px;
+    }
+
+    #firstSection h4 {
+        left: 250px;
+        font-size: 22px;
+    }
+
+    #firstSection p {
+        left: 100px;
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    #secondSection {
+        left: 50px;
+        top: 700px;
+    }
+
+    #thirdSection h3{
+        top: 1350px;
+        font-size: 25px;
+        left: 20px;
+    }
+
+    #Quinta {
+        top: 1450px;
+        left: 0px;
+        width: 284px;
+        height: 284px;
+    }
+
+    #Sexta {
+        top: 1450px;
+        left: 250px;
+        width: 284px;
+        height: 284px;
+    }
+
+    #Sabado {
+        top: 1450px;
+        left: 500px;
+        width: 284px;
+        height: 284px;
+    }
+
+    #Domingo {
+        top: 1800px;
+        left: 0px;
+        width: 284px;
+        height: 284px;
+    }
+
+    #botao {
+        top: 2150px;
+        left: 150px;
+    }  
+
+    #formulario {  
+        width: 820px;
+        height: 100%;      
+        top: 2500px;
+        display: flex;
+        flex-direction: column;
+  }
+
+    #formulario input {
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+        height: 110px;
+        text-align: center;
+        margin-left: 110px;
+        margin-top: 120px;
+        }
+
+     #submitInput {
+        padding-top: 40px;
+     }   
+    
+}
+
