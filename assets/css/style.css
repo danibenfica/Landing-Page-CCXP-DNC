@@ -357,7 +357,7 @@ video {
         width: 300px;
         font-size: 12px;
         top: 80px;
-        left: 90px;
+        left: 80px;
         }
 
     #secondSection {
@@ -385,14 +385,14 @@ video {
         vertical-align: baseline;
         margin-top: 10px;
         padding: 10px;
-        margin-left: 30px;
+        margin-left: 20px;
     }
 
     #pDias,
     #pHora,
     #pMinuto,
     #pSegundo {
-        margin-right: 30px;
+        margin-right: 20px;
     }
 
     .countdown #frase {
@@ -424,7 +424,7 @@ video {
 
     #Sexta {
         top: 1300px;
-        left: 250px;
+        left: 200px;
     }
 
     #Sabado {
@@ -434,7 +434,7 @@ video {
 
     #Domingo {
         top: 1500px;
-        left: 250px;
+        left: 200px;
     }
 
     #botao {
