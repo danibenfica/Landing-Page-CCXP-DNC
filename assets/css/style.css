@@ -440,7 +440,7 @@ video {
     #botao {
         width: 320px;
         height: 68px;
-        left: 20px;
+        left: 30px;
         top: 1700px;
         font-size: 16px;
     }
@@ -466,109 +466,4 @@ video {
     }
 }
 
-
-@media screen and (min-width: 481px) and (max-width: 768px) {
-    body {
-        margin: 0;
-        padding: 0;
-    }
-
-    header {
-        width: 902px;
-    }
-
-    #ccxpLogo {
-        width: 250px;
-        height: 73px;
-    }
-
-    #firstSection {
-        width: 902px;
-        height: 620px;
-    }
-
-    #firstSection h1 {
-        left: 200px;
-    }
-
-    #firstSection h4 {
-        left: 250px;
-        font-size: 22px;
-    }
-
-    #firstSection p {
-        left: 100px;
-        font-size: 28px;
-        line-height: 40px;
-    }
-
-    #secondSection {
-        left: 50px;
-        top: 700px;
-        
-    }
-
-
-    #thirdSection h3{
-        top: 1350px;
-        font-size: 25px;
-        left: 20px;
-    }
-
-    #Quinta {
-        top: 1450px;
-        left: 0px;
-        width: 284px;
-        height: 284px;
-    }
-
-    #Sexta {
-        top: 1450px;
-        left: 250px;
-        width: 284px;
-        height: 284px;
-    }
-
-    #Sabado {
-        top: 1450px;
-        left: 500px;
-        width: 284px;
-        height: 284px;
-    }
-
-    #Domingo {
-        top: 1800px;
-        left: 0px;
-        width: 284px;
-        height: 284px;
-    }
-
-    #botao {
-        top: 2250px;
-        left: 150px;
-    }  
-
-    #formulario {  
-        width: 820px;
-        height: 100%;      
-        top: 2500px;
-        display: flex;
-        flex-direction: column;
-  }
-
-    #formulario input {
-        display: flex;
-        flex-direction: column;
-        width: 600px;
-        height: 110px;
-        text-align: center;
-        margin-left: 110px;
-        margin-top: 120px;
-        }
-
-     #submitInput {
-        padding-top: 40px;
-     }   
-    
-}
 
