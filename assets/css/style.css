@@ -343,13 +343,13 @@ video {
     #firstSection h1 {
         width: 250px;
         font-size: 25px;
-        left: 50px;
+        left: 100px;
     }
 
     #firstSection h4 {
         width: 250px;
         font-size: 15px;
-        left: 50px;
+        left: 100px;
         top: 20px;
     }
 
@@ -357,7 +357,7 @@ video {
         width: 300px;
         font-size: 12px;
         top: 80px;
-        left: 20px;
+        left: 50px;
         }
 
     #secondSection {
@@ -406,7 +406,7 @@ video {
     video {
         width: 320px;
         top: 150px;
-        left: 0px;
+        left: 30px;
     }
 
     #thirdSection h3 {
@@ -457,7 +457,7 @@ video {
         display: flex;
         flex-direction: column;
         text-align: center;
-        margin-left: 10px;
+        margin-left: 50px;
         margin-top: 100px;
     }
 
