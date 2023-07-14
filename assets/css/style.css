@@ -325,136 +325,147 @@ video {
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
-
-    body{
-        width: 320px;
-        margin: 0;
-        padding: 0;
+    body {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
     }
 
-    header{
-        width: 602px;
+    header {
+        width: 100%;
     }
 
     #firstSection {
+        width: 320px;
         height: 484px;
     }
 
     #firstSection h1 {
+        width: 250px;
         font-size: 25px;
-        left: 150px;
+        left: 50px;
     }
 
     #firstSection h4 {
+        width: 250px;
         font-size: 15px;
-        left: 160px;
+        left: 50px;
         top: 20px;
     }
 
     #firstSection p {
+        width: 300px;
         font-size: 12px;
         top: 80px;
         left: 20px;
-        font-size: 23px;
-    }
-    
+        }
+
     #secondSection {
-        width: 602px;
+        width: 100%;
         left: 10px;
         top: 590px;
     }
-    
+
     .countdown {
         display: flex;
-        flex-wrap: wrap;
-        width: 602px;
-    
-    }
-    
-    #day, #hour, #min, #sec,
-    #pDias, #pHora, #pMinuto, #pSegundo {
-        font-size: 55px;
-        line-height: 30px;
-        vertical-align:baseline;
-        margin-top: 20px;
-        left: 20px;
+        flex-wrap:nowrap;
+        width: 50%;
     }
 
-    #pDias, #pHora, #pMinuto, #pSegundo {
+    #day,
+    #hour,
+    #min,
+    #sec,
+    #pDias,
+    #pHora,
+    #pMinuto,
+    #pSegundo {
+        font-size: 35px;
+        line-height: 30px;
+        vertical-align: baseline;
+        margin-top: 10px;
+        padding: 10px;
+        margin-left: 5px;
+    }
+
+    #pDias,
+    #pHora,
+    #pMinuto,
+    #pSegundo {
         margin-right: 5px;
     }
 
     .countdown #frase {
-        width: 450px;
-        font-size: 20px;
-        top: 90px;
-        line-height: 30px;
-        left: 30px;
-   
+        width: 250px;
+        font-size: 17px;
+        top: 200px;
+        line-height: 20px;
+        left: 20px;
     }
 
     video {
-        width: 550px;
-        top: 120px;
-        left: 10px;
+        width: 320px;
+        top: 150px;
+        left: 0px;
     }
-    
+
     #thirdSection h3 {
-        top: 1130px;
+        top: 1190px;
         left: 50px;
-        width: 450px;
+        width: 250px;
+        font-size: 16px;
         line-height: 30px;
     }
 
     #Quinta {
-        top: 1220px;
+        top: 1300px;
         left: 0px;
     }
 
     #Sexta {
-        top: 1220px;
+        top: 1300px;
         left: 150px;
     }
 
     #Sabado {
-        top: 1220px;
-        left: 300px;
-    }
-
-    #Domingo {
-        top: 1450px;
+        top: 1500px;
         left: 0px;
     }
 
+    #Domingo {
+        top: 1500px;
+        left: 150px;
+    }
+
     #botao {
-    
-        width: 396px;
+        width: 320px;
         height: 68px;
-        left: 100px;
+        left: 0px;
         top: 1700px;
         font-size: 16px;
     }
 
-    #formulario {  
-        width: 602px;
-        height: 100%;      
+    #formulario {
+        width: 100%;
+        height: 100%;
         top: 1800px;
         display: flex;
         flex-direction: column;
-  }
+    }
 
     #formulario input {
         display: flex;
         flex-direction: column;
         text-align: center;
-        margin-left: 130px;
+        margin-left: 10px;
         margin-top: 100px;
-        }
+    }
 
-     #submitInput {
+    #submitInput {
         padding-top: 20px;
-     }   
+    }
 }
+
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
     body {
